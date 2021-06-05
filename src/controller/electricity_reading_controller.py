@@ -1,7 +1,7 @@
 from flask import abort
 
-from repository.electricity_reading_repository import ElectricityReadingRepository
-from service.electricity_reading_service import ElectricityReadingService
+from src.repository.electricity_reading_repository import ElectricityReadingRepository
+from src.service.electricity_reading_service import ElectricityReadingService
 
 repository = ElectricityReadingRepository()
 service = ElectricityReadingService(repository)

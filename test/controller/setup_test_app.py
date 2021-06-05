@@ -1,6 +1,6 @@
-import config
+import src.config
 
-app = config.app
+app = src.config.app
 app.testing = True
-connex_app = config.connex_app
+connex_app = src.config.connex_app
 connex_app.add_api('swagger.yml', strict_validation=True)

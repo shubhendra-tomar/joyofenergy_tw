@@ -1,7 +1,7 @@
-from controller.electricity_reading_controller import service as electricity_reading_service
-from domain.price_plan import PricePlan
-from generator.electricity_reading_generator import generate_electricity_readings
-from repository.price_plan_repository import price_plan_repository
+from src.controller.electricity_reading_controller import service as electricity_reading_service
+from src.domain.price_plan import PricePlan
+from src.generator.electricity_reading_generator import generate_electricity_readings
+from src.repository.price_plan_repository import price_plan_repository
 
 DR_EVILS_DARK_ENERGY_ENERGY_SUPPLIER = "Dr Evil's Dark Energy"
 THE_GREEN_ECO_ENERGY_SUPPLIER = "The Green Eco"

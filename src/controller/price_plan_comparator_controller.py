@@ -1,7 +1,7 @@
 from flask import abort
 
-from service.account_service import AccountService
-from service.price_plan_service import PricePlanService
+from src.service.account_service import AccountService
+from src.service.price_plan_service import PricePlanService
 
 from .electricity_reading_controller import repository as readings_repository
 

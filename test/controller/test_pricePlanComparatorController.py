@@ -1,9 +1,9 @@
 import unittest
 
-from repository.price_plan_repository import price_plan_repository
-from controller.electricity_reading_controller import repository as readings_repository
-from app_initializer import initialize_data
-from service.time_converter import iso_format_to_unix_time
+from src.repository.price_plan_repository import price_plan_repository
+from src.controller.electricity_reading_controller import repository as readings_repository
+from src.app_initializer import initialize_data
+from src.service.time_converter import iso_format_to_unix_time
 
 from .setup_test_app import app
 

@@ -1,7 +1,7 @@
-import config
-from app_initializer import initialize_data
+import src.config
+from .app_initializer import initialize_data
 
-connex_app = config.connex_app
+connex_app = src.config.connex_app
 connex_app.add_api("swagger.yml", strict_validation=True)
 
 
