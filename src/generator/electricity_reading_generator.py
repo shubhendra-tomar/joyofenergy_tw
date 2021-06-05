@@ -1,4 +1,4 @@
-from src.service.time_converter import iso_format_to_unix_time
+from service.time_converter import iso_format_to_unix_time
 
 import math
 import random

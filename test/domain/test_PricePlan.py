@@ -1,7 +1,7 @@
 from datetime import datetime
 from unittest import TestCase
 
-from src.domain.price_plan import PricePlan
+from domain.price_plan import PricePlan
 
 
 class TestPricePlan(TestCase):

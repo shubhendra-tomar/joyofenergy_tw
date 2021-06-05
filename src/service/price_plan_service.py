@@ -1,6 +1,6 @@
 from functools import reduce
 
-from src.repository.price_plan_repository import price_plan_repository
+from repository.price_plan_repository import price_plan_repository
 
 from .electricity_reading_service import ElectricityReadingService
 from .time_converter import time_elapsed_in_hours

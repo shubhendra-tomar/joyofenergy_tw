@@ -1,4 +1,4 @@
-from src.domain.electricity_reading import ElectricityReading
+from domain.electricity_reading import ElectricityReading
 
 
 class ElectricityReadingService:
